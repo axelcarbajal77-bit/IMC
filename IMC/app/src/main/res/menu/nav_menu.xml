@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_perfil"
+        android:icon="@android:drawable/ic_menu_myplaces" android:title="Mi Perfil" />
+    <item
+        android:id="@+id/nav_calculadora"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Calculadora IMC" />
+    <item
+        android:id="@+id/nav_ejercicio"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="Rutinas de Ejercicio" />
+    <item
+        android:id="@+id/nav_dieta"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Planes de Dieta" />
+    <item
+        android:id="@+id/nav_historial"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="Historial Completo" />
+
+    <item
+        android:id="@+id/nav_ayuda"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Información/Ayuda" />
+</menu>

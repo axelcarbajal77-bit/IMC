@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Propósito del Sistema"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textColor="#37474F"
+            android:lineSpacingMultiplier="1.2"
+            android:text="IMC Pro es un asistente analítico de precisión biométrica diseñado para evaluar el Índice de Masa Corporal, estimar el gasto energético del metabolismo y proveer planes orientativos de alimentación. Su objetivo es democratizar el entendimiento de las métricas de salud corporal, permitiendo al usuario monitorear su evolución mediante un historial local seguro y adaptar su ingesta calórica en función de sus objetivos físicos." />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CFD8DC"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Glosario Técnico y Clínico"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• IMC (Índice de Masa Corporal)"
+            android:textStyle="bold"
+            android:textColor="#0A1428"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#455A64"
+            android:text="Es un indicador que asocia el peso de una persona con su estatura para evaluar si se encuentra en un rango saludable. Se calcula dividiendo los kilogramos de peso por el cuadrado de la estatura en metros." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• BMR / TMB (Tasa Metabólica Basal)"
+            android:textStyle="bold"
+            android:textColor="#0A1428"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#455A64"
+            android:text="Es la cantidad mínima de energía (calorías) que tu cuerpo necesita estrictamente para sobrevivir y realizar sus funciones vitales inconscientes (como respirar, bombear sangre y mantener la temperatura celular) estando en reposo total las 24 horas." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• TDEE (Gasto Energético Diario Total)"
+            android:textStyle="bold"
+            android:textColor="#0A1428"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#455A64"
+            android:text="Es la cantidad real de calorías que tu cuerpo quema en un día completo. Se calcula multiplicando tu BMR por un factor exponencial determinado por tu nivel de actividad física diaria (ejercicio, trabajo o movimiento rutinario)." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Macronutrientes (Macros)"
+            android:textStyle="bold"
+            android:textColor="#0A1428"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#455A64"
+            android:text="Sustancias químicas que aportan la gran mayoría de la energía metabólica al organismo. Se dividen en: Proteínas (estructuración celular y muscular), Carbohidratos (combustible de energía primaria rápida) y Grasas (regulación del sistema endocrino y hormonal)." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Protección Endocrina / Ajuste de Seguridad"
+            android:textStyle="bold"
+            android:textColor="#0A1428"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="24dp"
+            android:textColor="#455A64"
+            android:text="Es una restricción lógica implementada en el código para prevenir déficits calóricos agresivos. Consumir menos de 1500 kcal en hombres o 1200 kcal en mujeres puede gatillar un apagón metabólico, ralentizando el ritmo cardíaco y afectando la producción hormonal de las glándulas tiroides. El sistema bloquea automáticamente números menores para resguardar tu salud biológica." />
+
+    </LinearLayout>
+</ScrollView>
